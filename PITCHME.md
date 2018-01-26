@@ -11,49 +11,20 @@ ESS DMSC
 
 ### SciCat Data Catalogue
 
-- Data stored in files on NFS server
-- Not accessible without local username and password
-- Not searchable
-- Metadata in file/directory names
-- Not easy to automate processing/analysis
+- Make ESS metadata available to users
+- Easily findable, accessible
 
-
-```
-07_11
-07_12_background
-07_13_12A
-07_13_12A_Vanadium_powder
-07_13_4p96A
-07_13_7p2A
-07_14
-07_15
-07_15_converted
-07_25
-08_16
-09_29
-10_13
-11_29
-MCA4_data
-```
 
 ---
 
-### Data Management Plan
+### Kubernetes Deployment
 
-- Make data available and citeable
-- Need metadata
-- eg. technical metadata  (experimental setup, detector geometry
-and area, pulse width and shape, source type,  derived quantities, if raw or analyzed data,
-energy resolution, calibration information, sample type
-)
-- descriptive metadata (date, investigator details, ORCID etc)
-- administrative metadata (date, how created,
-Digital object identifier or other persistent ID,
-File type
-)
+- Minikube
+
 
 
 --
+
 
 
 
