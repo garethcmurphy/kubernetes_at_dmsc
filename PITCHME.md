@@ -29,16 +29,23 @@ ESS DMSC
 
 
 
-
-
-
-
-
 ---?image=assets/catanie.png&size=auto 90%
 
 
----
+--
 
-What metadata would you like to have visible?
+### Node-RED
 
-What services should the data catalogue provide?
+--
+
+## MongoDB
+
+--
+
+## Helm
+
+- Package manager for Kubernetes
+- Equivalent of apt or yum
+- Prepackaged k8s deployments available
+
+
