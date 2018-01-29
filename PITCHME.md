@@ -20,10 +20,19 @@ ESS DMSC
 ### Kubernetes Deployment
 
 - Minikube
+- For local testing only
+- Working minikube config at github.com/ScicatProject/localdeploy
+- RBAC disabled by default - can renable
 
 
 
 ---
+
+### MongoDB
+
+- Database requires presistent storage
+- Currently we store on k8s nodes, not a longterm solution
+
 
 
 
