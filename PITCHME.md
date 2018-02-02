@@ -63,11 +63,12 @@ ESS DMSC
 ---?image=assets/catanie2.png&size=auto 90%
 
 
+
 ---
 
 ### Node-RED
 
----?image=assets/nodered.png&size=auto 90%
+![Logo](assets/nodered.png)
 
 ### Catamel
 
