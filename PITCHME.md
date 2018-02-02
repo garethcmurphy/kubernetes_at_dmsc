@@ -41,7 +41,7 @@ ESS DMSC
 - Database (MongoDB)
 - Web frontend (catanie - Angular based)
 - Data catalogue backend (catamel- Automatically generated using IBM's [loopback.io](http://loopback.io)
-- Message/job queuing system (currently RabbitMQ -> migrating to [http://kafka.apache.org](Kafka))
+- Message/job queuing system (currently RabbitMQ -> migrating to [Kafka](http://kafka.apache.org))
 - Dataflow interface (Node-Red)
 
 
