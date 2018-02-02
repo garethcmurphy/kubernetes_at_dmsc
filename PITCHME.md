@@ -97,22 +97,21 @@ ESS DMSC
 
 ---
 
-###
-Kubernetes Dashboard
+### Kubernetes Dashboard
 
 ![kube1](assets/overview.png)
------------------------------
+---
 
 ###
 Kubernetes Dashboard
 
-![kube1](assets/pods.png)
--------------------------
+![kube2](assets/pods.png)
+---
 
 ###
 Kubernetes Dashboard
 
-![kube1](assets/kuberabbit.png)
+![kube3](assets/kuberabbit.png)
 
 
 ---
