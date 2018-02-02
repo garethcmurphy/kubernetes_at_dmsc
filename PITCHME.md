@@ -22,7 +22,7 @@ ESS DMSC
 
 - SciCat Data Catalogue
 - Make ESS metadata available to users
-- Easily findable, accessible
+- Easily findable, accessible, interoperable, reusable (FAIR)
 - Open source - https://github.com/ScicatProject
 
 ---
@@ -39,8 +39,6 @@ ESS DMSC
 
 ### Kubernetes Deployment
 
-
-
 - Minikube
 - For local testing only
 - Working minikube config at github.com/ScicatProject/localdeploy
@@ -49,7 +47,7 @@ ESS DMSC
 
 ---
 
-## Helm
+## Install packages via Helm
 
 - Package manager for Kubernetes
 - Equivalent of apt or yum
@@ -60,7 +58,13 @@ ESS DMSC
 
 
 
+---
 
+## Kubernetes
+
+- Deployments
+- Services
+- Pods (can be groups of containers, we typically use single containers)
 
 ---
 
