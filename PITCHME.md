@@ -41,7 +41,7 @@ ESS DMSC
 
 - Minikube
 - For local testing only
-- Working minikube config at github.com/ScicatProject/localdeploy
+- Working minikube config at http://www.github.com/ScicatProject/localdeploy
 - RBAC disabled by default - can renable
 
 
