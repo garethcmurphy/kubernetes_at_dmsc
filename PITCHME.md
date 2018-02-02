@@ -66,6 +66,22 @@ ESS DMSC
 - persistent storage
 - Active directory
 
+
+
+
+
+---
+
+## Kubernetes
+
+- Applications are deployed to "pod"s, which are made available using services, which are accessed using ingress
+- We need to separately
+- Deployments
+- Services
+- Pods (can be groups of containers, we typically use single containers)
+- Ingress
+
+
 ---
 
 ## Install packages via Helm
@@ -74,21 +90,9 @@ ESS DMSC
 - Equivalent of apt or yum
 - Prepackaged k8s deployments available
 - https://github.com/kubernetes/charts
+- A chart includes yaml files for depployment, service etc.
 - helm install stable/mongodb
 - helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VERSION --set image.repository=dacat/catamel
-
-
-
----
-
-## Kubernetes
-
-- Need to configure:
-- Deployments
-- Services
-- Pods (can be groups of containers, we typically use single containers)
-- Ingress
-
 ---
 
 ### MongoDB
