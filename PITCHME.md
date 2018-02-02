@@ -144,4 +144,12 @@ ESS DMSC
 
 ## DEMO
 
+---
+
+"The future offers very little hope for those who expect that our
+new mechanical slaves will offer us a world in which we may rest
+from thinking." - Norbert Wiener
+
+
+
 
