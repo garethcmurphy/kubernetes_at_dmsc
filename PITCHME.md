@@ -23,7 +23,7 @@ ESS DMSC
 
 ### Kubernetes/K8s
 
-- from greek word for helmsman/rorsman/timonier/steuermann
+- from greek word for helmsman/rorsman/timonier/steuermann/κυβερνήτης
 - also root of cybernetics, governor
 
 
