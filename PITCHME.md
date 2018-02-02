@@ -11,8 +11,9 @@ ESS DMSC
 
 ### What is Kubernetes
 
-Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
-
+- Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+- https://kubernetes.io/
+- KubeCon in Cph https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/
 
 ---
 
@@ -22,19 +23,23 @@ Kubernetes is an open-source system for automating deployment, scaling, and mana
 - SciCat Data Catalogue
 - Make ESS metadata available to users
 - Easily findable, accessible
-
+- Open source - https://github.com/ScicatProject
 
 ---
-### SciCat
+### SciCat is not a single app
 
 - Database (MongoDB)
-- Web frontend (Angular based)
-- Data catalogue backend (Automatically generated using loopback)
-- Message/job queuing system (RabbitMQ -> Kafka)
+- Web frontend (catanie - Angular based)
+- Data catalogue backend (catamel- Automatically generated using loopback)
+- Message/job queuing system (currently RabbitMQ -> migrating to Kafka)
+- Dataflow interface (Node-Red)
+
 
 ---
 
 ### Kubernetes Deployment
+
+
 
 - Minikube
 - For local testing only
@@ -61,6 +66,8 @@ Kubernetes is an open-source system for automating deployment, scaling, and mana
 ---
 
 ### Node-RED
+
+---?image=assets/catanie.png&size=auto 90%
 
 ---
 
