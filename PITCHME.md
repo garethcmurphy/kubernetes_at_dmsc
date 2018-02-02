@@ -93,8 +93,8 @@ European Spallation Source, Lund, Sweden
 - https://github.com/kubernetes/charts
 - A chart includes template .yaml files for deployment, service etc.
 ```
-- helm install stable/mongodb
-- helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VERSION --set image.repository=dacat/catamel
+helm install stable/mongodb
+helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VERSION --set image.repository=dacat/catamel
 ```
 ---
 
