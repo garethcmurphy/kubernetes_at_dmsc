@@ -76,7 +76,7 @@ European Spallation Source, Lund, Sweden
 ## Kubernetes
 
 - Applications are deployed to "pod"s, which are made available using services, which are accessed using ingress
-- We need to separately
+- We need to separately deal with:
 - Deployments
 - Services
 - Pods (can be groups of containers, we typically use single containers)
