@@ -49,11 +49,19 @@ ESS DMSC
 
 ### Kubernetes Deployment
 
-- Minikube
+- Can do test deployment on minikube
 - For local testing only
 - Working minikube config at http://www.github.com/ScicatProject/localdeploy
 - RBAC disabled by default - can renable
 
+---
+
+### Deployment on scicat0x.esss.lu.se
+
+- still outstanding:
+- Ingress
+- persistent storage
+- Active directory
 
 ---
 
