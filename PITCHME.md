@@ -82,7 +82,7 @@ ESS DMSC
 
 ### Catanie
 
-![nodered](assets/catanie2.png)
+![catanie](assets/catanie2.png)
 
 
 ---
@@ -94,6 +94,25 @@ ESS DMSC
 ### Catamel
 
 ![catamel](assets/catamel.png)
+
+---
+
+###
+Kubernetes Dashboard
+
+![kube1](assets/overview.png)
+-----------------------------
+
+###
+Kubernetes Dashboard
+
+![kube1](assets/pods.png)
+-------------------------
+
+###
+Kubernetes Dashboard
+
+![kube1](assets/kuberabbit.png)
 
 ---
 
