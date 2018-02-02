@@ -9,11 +9,28 @@ ESS DMSC
 
 ---
 
-### SciCat Data Catalogue
+### What is Kubernetes
 
+Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+
+---
+
+### What do we want to deploy?
+
+
+- SciCat Data Catalogue
 - Make ESS metadata available to users
 - Easily findable, accessible
 
+
+---
+### SciCat
+
+- Database (MongoDB)
+- Web frontend (Angular based)
+- Data catalogue backend (Automatically generated using loopback)
+- Message/job queuing system (RabbitMQ -> Kafka)
 
 ---
 
@@ -30,7 +47,7 @@ ESS DMSC
 
 ### MongoDB
 
-- Database requires presistent storage
+- Database requires persistent storage
 - Currently we store on k8s nodes, not a longterm solution
 
 
