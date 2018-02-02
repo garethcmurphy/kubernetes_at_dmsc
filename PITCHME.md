@@ -90,7 +90,7 @@ ESS DMSC
 - Equivalent of apt or yum
 - Prepackaged k8s deployments available
 - https://github.com/kubernetes/charts
-- A chart includes yaml files for depployment, service etc.
+- A chart includes template .yaml files for deployment, service etc.
 - helm install stable/mongodb
 - helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VERSION --set image.repository=dacat/catamel
 ---
