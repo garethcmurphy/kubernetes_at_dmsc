@@ -78,7 +78,7 @@ ESS DMSC
 
 ### Catanie
 
-![nodered](assets/catanie.png)
+![nodered](assets/catanie2.png)
 
 
 ---
