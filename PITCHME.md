@@ -16,7 +16,7 @@ ESS DMSC
 > applications.
 
 - https://kubernetes.io/
-- [KubeCon in Cph](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/)
+- [KubeCon in Cph 2018](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/)
 
 
 ---
