@@ -97,19 +97,17 @@ ESS DMSC
 
 ---
 
-### Kubernetes Dashboard
+### Dashboard Overview
 
 ![kube1](assets/overview.png)
 ---
 
-###
-Kubernetes Dashboard
+### Pods Overview
 
 ![kube2](assets/pods.png)
 ---
 
-###
-Kubernetes Dashboard
+###  Pod CPU & Memory
 
 ![kube3](assets/kuberabbit.png)
 
