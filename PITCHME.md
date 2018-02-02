@@ -47,6 +47,20 @@ ESS DMSC
 - RBAC disabled by default - can renable
 
 
+---
+
+## Helm
+
+- Package manager for Kubernetes
+- Equivalent of apt or yum
+- Prepackaged k8s deployments available
+- https://github.com/kubernetes/charts
+- helm install stable/mongodb
+- helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VERSION --set image.repository=dacat/catamel
+
+
+
+
 
 ---
 
@@ -60,30 +74,25 @@ ESS DMSC
 
 
 
----?image=assets/catanie2.png&size=auto 90%
+---
 
+### Catanie
+
+![nodered](assets/catanie.png)
 
 
 ---
 
 ### Node-RED
 
-![Logo](assets/nodered.png)
+![nodered](assets/nodered.png)
 
 ### Catamel
 
----?image=assets/catamel.png&size=auto 90%
+![catamel](assets/catamel.png)
 
 ---
 
 ## MongoDB
-
----
-
-## Helm
-
-- Package manager for Kubernetes
-- Equivalent of apt or yum
-- Prepackaged k8s deployments available
 
 
