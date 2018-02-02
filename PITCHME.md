@@ -41,11 +41,11 @@ ESS DMSC
 ---
 ### SciCat is not a single app
 
-- Database (MongoDB)
-- Web frontend (catanie - Angular based)
+- Database [MongoDB](https://www.mongodb.com/)
+- Web frontend (catanie - [angular](http://angular.io) based)
 - Data catalogue backend (catamel- Automatically generated using IBM's [loopback.io](http://loopback.io)
 - Message/job queuing system (currently RabbitMQ -> migrating to [Kafka](http://kafka.apache.org))
-- Dataflow interface (Node-Red)
+- Dataflow interface [Node-Red](https://nodered.org/)
 
 
 ---
