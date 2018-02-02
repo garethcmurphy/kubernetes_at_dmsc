@@ -15,6 +15,16 @@ ESS DMSC
 - https://kubernetes.io/
 - KubeCon in Cph https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/
 
+
+---
+
+### Kubernetes/K8s
+
+- from greek word for helmsman/rorsman/timonier/steuermann
+- also root of cybernetics, governor
+
+
+
 ---
 
 ### What do we want to deploy?
@@ -30,8 +40,8 @@ ESS DMSC
 
 - Database (MongoDB)
 - Web frontend (catanie - Angular based)
-- Data catalogue backend (catamel- Automatically generated using loopback)
-- Message/job queuing system (currently RabbitMQ -> migrating to Kafka)
+- Data catalogue backend (catamel- Automatically generated using IBM's [loopback.io](http://loopback.io)
+- Message/job queuing system (currently RabbitMQ -> migrating to [http://kafka.apache.org](Kafka))
 - Dataflow interface (Node-Red)
 
 
