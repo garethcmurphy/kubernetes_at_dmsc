@@ -11,9 +11,12 @@ ESS DMSC
 
 ### What is Kubernetes
 
-- Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+> Kubernetes is an open-source system for automating
+> deployment, scaling, and management of containerized
+> applications.
+
 - https://kubernetes.io/
-- KubeCon in Cph https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/
+- [KubeCon in Cph](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/)
 
 
 ---
