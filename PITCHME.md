@@ -80,9 +80,11 @@ ESS DMSC
 
 ## Kubernetes
 
+- Need to configure:
 - Deployments
 - Services
 - Pods (can be groups of containers, we typically use single containers)
+- Ingress
 
 ---
 
