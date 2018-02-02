@@ -70,6 +70,7 @@ ESS DMSC
 
 ### MongoDB
 
+- NoSQL storage of metadata, login, jobs
 - Database requires persistent storage
 - Currently we store on k8s nodes, not a longterm solution
 
@@ -82,6 +83,14 @@ ESS DMSC
 
 ### Catanie
 
+- Angular website
+- Javascript generated static html
+- Data served by catamel
+- Viewable on PC, phone etc
+
+---
+
+### Catanie
 ![catanie](assets/catanie2.png)
 
 
@@ -89,7 +98,26 @@ ESS DMSC
 
 ### Node-RED
 
+- Translate metadata from Kafka stream XML to catamel format (JSON)
+- can be used to add in extra data cleaning  or processing
+
+
+---
+
+### Node-RED
+
 ![nodered](assets/nodered.png)
+
+---
+
+### Catamel
+
+- Loopback generated API
+- Models defined in JSON
+- connectivity to authentication server
+
+
+---
 
 ### Catamel
 
