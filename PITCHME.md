@@ -3,7 +3,7 @@
 
 Gareth Murphy
 
-ESS DMSC
+European Spallation Source, Lund, Sweden
 
 2018-02-05
 
@@ -34,6 +34,7 @@ ESS DMSC
 
 
 - SciCat Data Catalogue
+- developed by in-kind collaborators at PSI (S. Egli, C. Gwilliams)
 - Make ESS metadata available to users
 - Easily findable, accessible, interoperable, reusable (FAIR)
 - Open source - https://github.com/ScicatProject
