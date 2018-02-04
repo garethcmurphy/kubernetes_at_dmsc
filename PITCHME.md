@@ -28,6 +28,8 @@ European Spallation Source, Lund, Sweden
 
 
 
+
+
 ---
 
 ### What do we want to deploy?
@@ -39,6 +41,8 @@ European Spallation Source, Lund, Sweden
 - Easily findable, accessible, interoperable, reusable (FAIR)
 - Open source - https://github.com/ScicatProject
 
+
+
 ---
 ### SciCat is not a single app
 
@@ -48,6 +52,11 @@ European Spallation Source, Lund, Sweden
 - Message/job queuing system (currently RabbitMQ -> migrating to [Kafka](http://kafka.apache.org))
 - Dataflow interface [Node-Red](https://nodered.org/)
 
+---
+
+### Kubernetes architecture
+
+![scicat](assets/SciCat.png
 
 ---
 
@@ -58,16 +67,14 @@ European Spallation Source, Lund, Sweden
 - Working minikube config at http://www.github.com/ScicatProject/localdeploy
 - RBAC disabled by default - can renable
 
+
+
+
 ---
 
-### Deployment on scicat0x.esss.lu.se
+### Kubernetes architecture
 
-- still outstanding:
-- Ingress
-- persistent storage
-- Active directory
-
-
+![kube](assets/kube_arch.png
 
 
 
@@ -169,6 +176,15 @@ helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VER
 
 ![kube3](assets/kuberabbit.png)
 
+
+---
+
+### Deployment on scicat0x.esss.lu.se
+
+- still outstanding:
+- Ingress
+- persistent storage
+- Active directory
 
 ---
 
