@@ -56,16 +56,16 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes architecture
 
-![scicat](assets/SciCat.png
+![scicat](assets/SciCat.png)
 
 ---
 
 ### Kubernetes Deployment
 
 - Can do test deployment on minikube
-- For local testing only
+- Try it yourself
 - Working minikube config at http://www.github.com/ScicatProject/localdeploy
-- RBAC disabled by default - can renable
+- RBAC disabled by default - can re-enable
 
 
 
@@ -74,7 +74,7 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes architecture
 
-![kube](assets/kube_arch.png
+![kube](assets/kube_arch.png)
 
 
 
@@ -82,7 +82,7 @@ European Spallation Source, Lund, Sweden
 
 ## Kubernetes
 
-- Applications are deployed to "pod"s, which are made available using services, which are accessed using ingress
+- Applications are deployed to "pods", which are made available using services, which are accessed using ingress
 - We need to separately deal with:
 - Deployments
 - Services
@@ -98,10 +98,19 @@ European Spallation Source, Lund, Sweden
 - Equivalent of apt or yum
 - Prepackaged k8s deployments available
 - https://github.com/kubernetes/charts
-- A chart includes template .yaml files for deployment, service etc.
+
+---
+
+## Install packages via Helm
+- A chart includes template .yaml files for deployment,
+service etc.
 ```
 helm install stable/mongodb
-helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VERSION --set image.repository=dacat/catamel
+```
+```
+helm install catamel --name catamel  \
+ --set image.tag=$IMAGEVERSION  \
+ --set image.repository=dacat/catamel
 ```
 ---
 
@@ -110,8 +119,6 @@ helm install dacat-api-server --name catamel  --set image.tag=$CATAMEL_IMAGE_VER
 - NoSQL storage of metadata, login, jobs
 - Database requires persistent storage
 - Currently we store on k8s nodes, not a longterm solution
-
-
 
 
 
