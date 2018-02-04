@@ -54,7 +54,7 @@ European Spallation Source, Lund, Sweden
 
 ---
 
-### Kubernetes architecture
+### SciCat architecture
 
 ![scicat](assets/SciCat.png)
 
@@ -74,7 +74,7 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes architecture
 
-![kube](assets/kube_arch.png)
+![kube](assets/kube_arch.png&size=auto 90%)
 
 
 
