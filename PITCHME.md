@@ -74,7 +74,7 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes architecture
 
-![kube](assets/kube_arch.png&size=auto 90%)
+![kube](assets/kube_arch.png)
 
 
 
