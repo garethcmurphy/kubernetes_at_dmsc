@@ -63,12 +63,10 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes Deployment
 
-- Our test deployment is on minikube
+- Can test kubernetes deployment using minikube, wihout installing a full cluster
 - Try it yourself!
 - Working minikube config at http://www.github.com/ScicatProject/localdeploy
 - RBAC disabled by default - can re-enable
-
-
 
 
 ---
@@ -76,7 +74,6 @@ European Spallation Source, Lund, Sweden
 ### Kubernetes architecture
 
 ![kube](assets/kube_arch.png)
-
 
 
 ---
@@ -146,7 +143,7 @@ helm install catamel --name catamel  \
 ### Node-RED
 
 - Translate metadata from Kafka stream XML to catamel format (JSON)
-- can be used to add in extra data cleaning  or processing
+- Can be used to add in extra data cleaning  or processing
 
 
 ---
