@@ -199,7 +199,10 @@ helm install catamel --name catamel  \
 
 ---
 
-## DEMO
+## Conclusion
+
+- SciCat on Kubernetes will be able to provide metadata services for ESS users needs
+
 
 ---
 
