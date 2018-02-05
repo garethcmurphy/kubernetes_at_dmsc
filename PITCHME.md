@@ -23,8 +23,9 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes/K8s
 
-- from greek word for helmsman/rorsman/timonier/steuermann/κυβερνήτης
+- from Greek word κυβερνήτης meaning helmsman/rorsman/timonier/steuermann.
 - also root of cybernetics, governor
+- Originally developed from Google cluster managementsystem, Borg
 
 
 
@@ -62,8 +63,8 @@ European Spallation Source, Lund, Sweden
 
 ### Kubernetes Deployment
 
-- Can do test deployment on minikube
-- Try it yourself
+- Our test deployment is on minikube
+- Try it yourself!
 - Working minikube config at http://www.github.com/ScicatProject/localdeploy
 - RBAC disabled by default - can re-enable
 
@@ -83,11 +84,11 @@ European Spallation Source, Lund, Sweden
 ## Kubernetes
 
 - Applications are deployed to "pods", which are made available using services, which are accessed using ingress
-- We need to deal separately with:
-- Deployments
-- Services
-- Pods (can be groups of containers, we typically use single containers)
-- Ingress
+- For each of the 5+ services we need to configure:
+    1. Deployments
+    2. Services
+    3. Pods (can be groups of containers, we typically use single containers)
+    4. Ingress
 - for each of 5 microservices, 4 configurations = 20 config files
 
 
@@ -104,11 +105,12 @@ European Spallation Source, Lund, Sweden
 ---
 
 ## Install packages via Helm
-- A chart includes template .yaml files for deployment,
+- A helm chart includes template .yaml files for deployment,
 service etc.
 ```
 helm install stable/mongodb
 ```
+- Can use helm to install from custom Docker image
 ```
 helm install catamel --name catamel  \
  --set image.tag=$IMAGEVERSION  \
@@ -157,9 +159,10 @@ helm install catamel --name catamel  \
 
 ### Catamel
 
+- Metadata server
 - Loopback generated API
 - Models defined in JSON
-- connectivity to authentication server
+- Also provides connectivity to authentication server(s)
 
 
 ---
@@ -187,7 +190,7 @@ helm install catamel --name catamel  \
 
 ---
 
-### Deployment on scicat0x.esss.lu.se
+### Deployment of scicat
 
 - still outstanding:
 - Ingress
