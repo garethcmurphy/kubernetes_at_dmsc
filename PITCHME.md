@@ -9,7 +9,7 @@ European Spallation Source, Lund, Sweden
 
 ---
 
-### What is Kubernetes
+### What is Kubernetes?
 
 > Kubernetes is an open-source system for automating
 > deployment, scaling, and management of containerized
@@ -50,7 +50,7 @@ European Spallation Source, Lund, Sweden
 - Web frontend (catanie - [angular](http://angular.io) based)
 - Data catalogue backend (catamel- Automatically generated using IBM's [loopback.io](http://loopback.io)
 - Message/job queuing system (currently RabbitMQ -> migrating to [Kafka](http://kafka.apache.org))
-- Dataflow interface [Node-Red](https://nodered.org/)
+- Dataflow interface [Node-RED](https://nodered.org/)
 
 ---
 
@@ -83,17 +83,19 @@ European Spallation Source, Lund, Sweden
 ## Kubernetes
 
 - Applications are deployed to "pods", which are made available using services, which are accessed using ingress
-- We need to separately deal with:
+- We need to deal separately with:
 - Deployments
 - Services
 - Pods (can be groups of containers, we typically use single containers)
 - Ingress
+- for each of 5 microservices, 4 configurations = 20 config files
 
 
 ---
 
 ## Install packages via Helm
 
+- Helm can short circuit this process
 - Package manager for Kubernetes
 - Equivalent of apt or yum
 - Prepackaged k8s deployments available
@@ -119,7 +121,6 @@ helm install catamel --name catamel  \
 - NoSQL storage of metadata, login, jobs
 - Database requires persistent storage
 - Currently we store on k8s nodes, not a longterm solution
-
 
 
 
