@@ -25,7 +25,7 @@ European Spallation Source, Lund, Sweden
 
 - from Greek word κυβερνήτης meaning helmsman/rorsman/timonier/steuermann.
 - also root of cybernetics, governor
-- Originally developed from Google cluster managementsystem, Borg
+- Originally developed from Google cluster management system, Borg
 
 
 
@@ -47,11 +47,11 @@ European Spallation Source, Lund, Sweden
 ---
 ### SciCat is not a single app
 
-- Database [MongoDB](https://www.mongodb.com/)
 - Web frontend (catanie - [angular](http://angular.io) based)
-- Data catalogue backend (catamel- Automatically generated using IBM's [loopback.io](http://loopback.io)
+- API service backend (catamel- Automatically generated using IBM's [loopback.io](http://loopback.io)
+- Database [MongoDB](https://www.mongodb.com/)
 - Message/job queuing system (currently RabbitMQ -> migrating to [Kafka](http://kafka.apache.org))
-- Dataflow interface [Node-RED](https://nodered.org/)
+- Flow-based editor [Node-RED](https://nodered.org/)
 
 ---
 
